@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+   <RelativeLayout android:background="@drawable/cm8" tools:context=".aiht0" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+
+       <TextView
+           android:id="@+id/textView1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentTop="true"
+           android:layout_centerHorizontal="true"
+           android:layout_marginTop="27dp"
+           android:text="@string/admin"
+           android:textAppearance="?android:attr/textAppearanceLarge"
+           android:textSize="19pt" />
+
+       <Button
+           android:id="@+id/button2"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignLeft="@+id/button1"
+           android:layout_alignStart="@+id/button1"
+           android:layout_below="@+id/button1"
+           android:layout_marginTop="66dp"
+           android:text="@string/stud" android:textSize="10pt"/>
+
+    <Button android:layout_height="wrap_content" android:textSize="10pt"    android:layout_width="wrap_content" android:text="@string/staff" android:layout_marginTop="91dp" android:id="@+id/button1" android:layout_centerHorizontal="true" android:layout_below="@+id/textView1"/>
+
+       <Switch
+           android:id="@+id/switch1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignTop="@+id/button2"
+           android:layout_centerHorizontal="true"
+           android:layout_marginTop="118dp"
+           android:text="@string/Switch" android:textSize="10pt"    android:onClick="sendNotification"/>
+
+   </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
